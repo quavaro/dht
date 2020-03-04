@@ -2,7 +2,7 @@ const sensor = require("node-dht-sensor").promises;
 const bunyan = require("bunyan");
 const fs = require("fs");
 
-const logPath  = "var/tmp/dhtsensor.log";
+const logPath  = 'var/tmp/dhtsensor.log';
 let lowestTemp = 9999;
 let highestTemp = -9999;
 
